@@ -1,6 +1,6 @@
 # CPU Scheduling Simulator
 
-The CPU Scheduling Simulator is a Bash-based project. It performs simulation of the two basic CPU scheduling algorithms, First Come First Serve (FCFS), and Round Robin (RR). The program describes how the scheduling process was broken down, step by step: waiting time, turnaround time, throughput, and context switching overhead.
+The CPU Scheduling Simulator is a Bash-based project. It performs a simulation of the two basic CPU scheduling algorithms, First Come First Serve (FCFS) and Round Robin (RR). The program describes how the scheduling process was broken down, step by step: waiting time, turnaround time, throughput, and context switching overhead.
 
 ## Features
 
@@ -11,7 +11,7 @@ The CPU Scheduling Simulator is a Bash-based project. It performs simulation of 
   - **Average Turnaround Time**
   - **Throughput**
   - **Total Context Switching Overhead**
-- Customizable context switch time and time quantum for RR.
+- User can input context switch time and time quantum for RR.
 
 ## Usage
 
@@ -29,7 +29,7 @@ sh project.sh
   - **Arrival Time** (ms)
   - **Action Time** (ms)
 - Enter the **Context Switch Time** (ms).
-- Provide the **Time Quantum**.
+- Enter the **Time Quantum**.
 
 ### Example Run
 
